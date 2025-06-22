@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+
+        (function () {
+             emailjs.init("SRqL99_JQE-ZTOF8T"); 
+        })();
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href="/card.css">
+</head>
+<body>
+    <div id="main">
+        <div id = "wish-card"></div>
+        <div id="button">
+            <button id ="sendbutton"onclick="send()">📧 Send This Wish</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="/card.js"></script>
+    
+</body>
+</html>

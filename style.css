@@ -1,0 +1,76 @@
+/* Reset & Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fff0f6; /* soft blush pink */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+.tagline {
+    font-family: "dancing script",cursive;
+}
+
+/* Container for the main content */
+.container {
+  text-align: center;
+}
+
+/* Button Wrapper Styling */
+.button-wrapper {
+  background: linear-gradient(135deg, #ff69b4, #f6e2b3); /* hot pink to champagne gold */
+  padding: 30px 50px;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button-wrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(255, 105, 180, 0.6);
+}
+
+/* Button Styling */
+.button-wrapper button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #cc3366;
+  cursor: pointer;
+}
+
+.button-wrapper h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.button-wrapper h4 {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .button-wrapper {
+    padding: 20px 30px;
+  }
+
+  .button-wrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  .button-wrapper h4 {
+    font-size: 0.9rem;
+  }
+}

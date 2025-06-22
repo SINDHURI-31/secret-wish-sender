@@ -1,0 +1,38 @@
+body{
+    font-family : "Dancing script",cursive;
+    background : #e2c8c8;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.card{
+    background:#fff;
+    border-radius: 20px;
+    padding : 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    text-decoration: wavy;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn{
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+
+}
+#sendbutton {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #ff6ec4, #7873f5);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+#sendbutton:hover {
+  transform: scale(1.05);
+}

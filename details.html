@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+    <link rel="stylesheet" href="/details.css" />
+  </head>
+  <body>
+    <form action="card.html" method="get" class="wish form">
+        <div>
+            <label for="reciever">Receiver name </label>
+            <input
+            type="text"
+            id="receiver"
+            name="reciever"
+            required
+            placeholder="Name of the lovely person"
+            />
+        </div>
+        <div>
+        <label for="reciever-email">Email</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="example@domain.com"
+            required
+            placeholder=" "
+        >
+        </div>
+        <div>
+        <label for="number">Contact Number</label>
+        <input type="tel" id="contact_number" name="contact_number" maxlength="10" />
+        </div>
+        <label for="occassion">Occassion</label>
+        <input
+            type="text"
+            id="occassion"
+            name="occassion"
+            required
+            placeholder="Occassion"
+        />
+        <div>
+        <label for="custom" message> Enter custom message</label>
+        <input
+            type="text"
+            id="message"
+            rows="5"
+            name="message"
+            required
+            placeholder="message"
+        />
+        </div>
+        <div class="button-group">
+            <button type="submit" class="generate-button" href = "/css.html">🎨 Generate Wish</button>
+           
+        </div>
+        </form>
+        
+        </script>
+</body>
+</html>
