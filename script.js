@@ -9,6 +9,6 @@ button.addEventListener('click', () => {
 
   //go to details page after confetti
   setTimeout(() => {
-    window.location.href = "/details.html";
+    window.location.href = "details.html";
   }, 2000);
 });
